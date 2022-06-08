@@ -7,34 +7,36 @@
      <title>login</title>
 </head>
 <style>
-    #id #pass #name #call{margin-top: 20px; margin-left: 650px;}
-    #button{width: 305px; height: 50px; border: solid 1px rgb(204, 210, 240); background-color: rgb(204, 210, 240); color: black; text-align: center; border-radius: 10px; margin-left: 633px; font-size: 20px; padding-top: 5px; vertical-align: middle; margin-top: 20px;}
+
+    #button{width: 305px; height: 50px; border: solid 1px rgb(204, 210, 240); background-color: rgb(204, 210, 240); color: black;
+         text-align: center; border-radius: 10px; font-size: 20px; padding-top: 5px; vertical-align: middle; margin: 20px auto;}
     h2{text-align: center; margin-top: 10px; margin-bottom: 20px; }
     #logo img{ width: 200px; height: 100px;}
-    #logo{width: 200px ;  height: 100px; border: solid 0px black; margin: 50px 0px 0px 700px}
-    #new{margin-top: 20px; margin-left: 635px; line-height: 200%;}
+    #logo{width: 200px ;  height: 100px; border: solid 0px black; margin: 50px auto;}
     a:visited{text-decoration: none; color: rgb(0, 0, 0);}
 a:link{text-decoration: none; color: rgb(0, 0, 0);}
-#box li{list-style-type: none;}
+
 #box img{width: 300px;}
-#box{margin-left: 595px;}
-#re{margin-top: 40px; font-size: 15px;}
+#re{margin: 30px auto; font-size: 15px;}
 .textbox{width: 300px; height: 50px; border-radius: 10px;}
+#main {height: 800px;
+text-align: center; margin: 0 auto;}
+#boro {margin: 0 auto; width: 900px;}
 </style>
 
 
 
 <body>
-   <div id="logo"><img src="img/logo2.png"></div> 
+    <section id="main">
+   <div id="logo"><a href="trip.html"><img src="img/logo2.png"></a></div> 
 <div id="box">
-    <ul>
-        <li> <a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_w4tk6qsj20r_provider%26ka%3Dsdk%252F1.42.0%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwww.goodchoice.kr%26origin%3Dhttps%253A%252F%252Fwww.goodchoice.kr%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3Do2py0hotj7eezojiqng848%26client_id%3Df6ffb505bb11d7cc3584d443ce35f704&talk_login=hidden">
-        <img src="img/kakao.PNG"></li></a>
-        <li> <a href="https://ko-kr.facebook.com/login/device-based/regular/login/"> <img src="img/facebook.PNG"></li></a>
-        <li><a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"> <img src="img/naver.PNG"></li></a>
-    </ul>
+        <a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fproxy%3DeasyXDM_Kakao_w4tk6qsj20r_provider%26ka%3Dsdk%252F1.42.0%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwww.goodchoice.kr%26origin%3Dhttps%253A%252F%252Fwww.goodchoice.kr%26response_type%3Dcode%26redirect_uri%3Dkakaojs%26state%3Do2py0hotj7eezojiqng848%26client_id%3Df6ffb505bb11d7cc3584d443ce35f704&talk_login=hidden">
+        <img src="img/kakao.PNG"></a><br>
+        <a href="https://ko-kr.facebook.com/login/device-based/regular/login/"> <img src="img/facebook.PNG"></a><br>
+        <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"> <img src="img/naver.PNG"></a>
+    
 </div>
-<form action="main.html">
+<form id="boro" action="main.html">
     <div id="new">
         <div id="id">
             <span class="text">이메일 아이디</span><br>
@@ -53,5 +55,6 @@ a:link{text-decoration: none; color: rgb(0, 0, 0);}
      <a href="trip.html">로그인</a>
 </form>
 <div id="re">비밀번호재설정  ㅣ  <a href="join.html">회원가입</a></div>
+</section>
 </body>
 </html>
