@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>pay</title>
+        <style>
+            * {padding: 0px; margin:0px;}
+            body{font-family: '맑은고딕';}
+            header {background-color: rgb(204, 210, 240);  height: 50px; margin: 0 auto; border: solid 0px red; }
+            #logo img{float: left; margin: 0 0px 0px 150px;}
+            img{width: 200px; margin:0 auto; padding-right: 20px; margin-top: 230px;}
+            #info{border: solid 2px black; border-radius: 13px;  margin: 60px 0 15px 500px; width: 500px; height: 180px;  font-size: 15px; line-height: 80px; text-align:center}
+         #info img{width: 20px;}
+            h2{text-align: center; margin-top: 30px;}
+            #next{border: solid 1px rgb(204, 210, 240); border-radius: 10px; text-align: center; margin: 40px 0 15px 500px; width: 500px; height: 50px; background-color: rgb(204, 210, 240); line-height: 50px; }
+            span{color: red;}
+            .join{ margin-top: 5px; margin-left: 500px; line-height: 100%; }
+            #agree{ margin-top: 30px; margin-left: 500px; line-height: 200%; }
+            a:visited{text-decoration: none; color: rgb(0, 0, 0);}
+            a:link{text-decoration: none; color: rgb(0, 0, 0);}
+           .opbox{height: 40px; width: 200px;}
+           .radio{width: 18px; height: 18px;}
+        </style>
+    </head>
+<body>
+    <h2>결 제</h2>
+<form>
+    <div id="info">
+        
+        <input class="radio" type="radio" name="info">  카카오페이 
+        <input class="radio" type="radio" name="info"> 휴대폰결제<br>
+        <input class="radio" type="radio" name="info"> 카드결제 
+        <input class="radio" type="radio" name="info"> 계좌이체
+    
+    
+    </div>
+    <br>
+    <div class="join">
+        카드종류 &nbsp;
+        <select class="opbox">
+            <option>카드종류를 선택해주세요.</option>
+            <option>신한카드</option>
+            <option>국민카드</option>
+            <option>현대카드</option>
+            <option>삼성카드</option>
+        </select>
+    </div>
+
+    <br>
+    <div class="join">
+        할부선택 &nbsp;
+        <select class="opbox">
+            <option>할부개월을 선택해주세요.</option>
+            <option>일시불</option>
+            <option>2개월</option>
+            <option>3개월</option>
+            <option>4개월</option>
+            <option>5개월</option>
+            <option>6개월</option>
+        </select>
+    </div>
+
+    <div id="agree">
+        <input type="checkbox"> 숙소이용규칙 및 취소/환불규정동의<span> (필수)</span><br>
+        <input type="checkbox"> 개인정보 수집 및 이용 동의<span> (필수)</span><br>
+        <input type="checkbox"> 개인정보 제 3자 제공 동의<span> (필수)</span><br>
+        <input type="checkbox"> 만 14세 이상 확인<span> (필수)</span><br>
+       </div>
+</form>
+
+    <div id="next"><a href="trip.html"> 결제하기</a></div>
+
+</body>
+    </html>
