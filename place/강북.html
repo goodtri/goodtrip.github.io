@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+/*  기본틀 만들기 */
+
+* {padding: 0px; margin:0px;}
+header {background-color: rgb(204, 210, 240);  height: 50px; margin: 0 auto;}
+footer {background-color: #5d5b5a; width: 100%; height: 150px; }
+#top{ text-align: right;}
+#top li{list-style-type: none; display: inline; padding:10px;} 
+#logo{float: left; margin: 3px 0px 0px 150px;}
+#menus{float: right; margin-top: 20px;}
+a:visited{text-decoration: none; color: black;}
+a:link{text-decoration: none; color: rgb(0, 0, 0);}
+#address{float: right; color:white ; margin: 50px 30px 0 0;}
+#address li{list-style-type: none;}
+
+/* mainpage sheet*/
+#main_page{
+width: 800px; height: 140px; margin: 100px auto;
+text-align: center; font-size: 30px; padding: 30px;
+background-color: rgb(204, 210, 240); 
+}
+#cafe {line-height : 40px;}
+#page {border: solid 3px cornflowerblue; background-color: white;
+margin: 30px auto; width: 150px; text-align: center; color: black;
+border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+      <header>
+            <div id="logo"> <a href="trip.html"><img src="img/logo.png" width="150px"></a></div>
+            <nav id="meuns">
+                  <div id="top">
+                    <ul>
+                    <a href=""><li><img src="img/search.png" width="20px"></a></li>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="mypage.html"> 더보기</a></li>
+                 
+                </ul>
+            </div>
+                 
+            </nav>
+    </header>
+    <section id='main_page'>
+      <div id="cafe">
+      <a href="https://map.naver.com/v5/search/%EA%B0%95%EB%B6%81%20%EC%B9%B4%ED%8E%98?c=14132964.4440412,4528663.3117856,12,0,0,0,dh">
+            강북 카페 둘러보기</a>ㅣ
+      <a href="https://map.naver.com/v5/search/%EA%B0%95%EB%B6%81%20%EB%A7%9B%EC%A7%91?c=14132964.4440412,4528663.3117856,12,0,0,0,dh">
+            강북 맛집 둘러보기</a>
+      </div>
+<a href="추천.html"><div id="page">추천받기</div></a>
+
+
+</section>
+
+</body>
+
+</html>

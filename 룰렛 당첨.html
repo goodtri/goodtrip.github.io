@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+/*  기본틀 만들기 */
+
+* {padding: 0px; margin:0px;}
+header {background-color: rgb(204, 210, 240);  height: 50px; margin: 0 auto;}
+#sub_menu {
+text-align: center; margin: 100px auto; padding: 10px; font-size: 25px;
+font-family: monospace;}
+#contents { width: 100%; height: 600px;}
+footer {background-color: #5d5b5a; width: 100%; height: 150px; }
+#top{ text-align: right;}
+#top li{list-style-type: none; display: inline; padding:10px;} 
+#logo{float: left; margin: 3px 0px 0px 150px;}
+#menus{float: right; margin-top: 20px;}
+a:visited{text-decoration: none; color: black;}
+a:link{text-decoration: none; color: rgb(0, 0, 0);}
+#address{float: right; color:white ; margin: 50px 30px 0 0;}
+#address li{list-style-type: none;}
+#box {background-color: rgb(204, 210, 240); text-align: center; padding: 20px;
+border: solid 2px rgb(204, 210, 240); width: 130px; height: 25px; margin: 0 auto;
+color: black}
+</style>
+</head>
+
+<body>
+      <header>
+            <div id="logo"> <a href="trip.html"><img src="img/logo.png" width="150px"></a></div>
+            <nav id="meuns">
+                  <div id="top">
+                    <ul>
+                    <a href=""><li><img src="img/search.png" width="20px"></a></li>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="mypage.html"> 더보기</a></li>
+                 
+                </ul>
+            </div>
+                 
+            </nav>
+    </header>
+
+
+<section id='contents'>
+     <div id='sub_menu'>
+           <b>축하합니다!</b> 10%쿠폰에 당첨되셨습니다!
+     </div>
+     <a href="trip.html">
+     <div id="box">
+      쿠폰사용하러가기      
+     </div>
+</a>
+</section>
+
+</body>
+
+</html>
