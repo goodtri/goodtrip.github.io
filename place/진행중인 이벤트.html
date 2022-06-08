@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Event</title>
+<meta charset='utf-8'>
+<style>
+/*  기본틀 만들기 */
+#page {width: 1200px; margin: 0 auto;}
+.clear {clear: both;}
+* {padding: 0px; margin:0px;}
+
+#sub_menu {
+width:1200px; height: 150px;}
+#main_contents{
+font-size: 50px; text-align: center; margin: 100px auto;
+width: 1200px; height: 700px; padding: 10px;
+font-family: monospace;}
+
+header {background-color: rgb(204, 210, 240);  height: 50px; margin: 0 auto;}
+
+/* menu stylee sheet */
+#event {padding: 10px;}
+.menu{display: inline; color: black; text-decoration: none;  width: 150px; text-align: center; font-size: 18px;}
+section a:link {text-decoration: none; color: black;}
+section a:visited {text-decoration: none; color: black;}
+section a:hover {padding: 5px; text-decoration: none; color:white; border-radius: 10px; background-color: blue;}
+#even {margin: 10px;}
+
+/* main contents sheets */
+#top{ text-align: right;}
+#top li{list-style-type: none; display: inline; padding:10px;} 
+#logo{float: left; margin: 3px 0px 0px 150px;}
+#menus{float: right; margin-top: 20px;}
+footer, header a:visited{text-decoration: none; color: rgb(255, 255, 255);}
+footer, header a:link{text-decoration: none; color: rgb(0, 0, 0);}
+#address{float: right; color:white ; margin: 50px 30px 0 0;}
+#address li{list-style-type: none;}
+footer {background-color: #5d5b5a; width: 100%; height: 150px; }
+
+</style>
+</head>
+
+<body>
+      <header>
+            <div id="logo"> <a href="trip.html"><img src="img/logo.png" width="150px"></a></div>
+            <nav id="meuns">
+                  <div id="top">
+                    <ul>
+                    <a href=""><li><img src="img/search.png" width="20px"></a></li>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="mypage.html"> 더보기</a></li>
+                 
+                </ul>
+            </div>
+                 
+            </nav>
+    </header>
+<div id="page">
+<section id='contents'>
+     <nav id='sub_menu'>
+            <div id="event">
+           <h3>이벤트</h3><hr>
+           <div id="even">
+           <div class="menu"><a href="진행중인 이벤트.html">진행중인 이벤트</a></div>&nbspㅣ&nbsp
+           <div class="menu"><a href="종료된 이벤트.html">종료된 이벤트</a></div>&nbspㅣ&nbsp
+           <div class="menu"><a href="당첨 확인.html">당첨 확인</a></div>
+      </div>
+      </div>
+     </nav>
+   
+      <div id='main_contents'>
+            진행중인 이벤트가 없습니다.
+      </div>
+</section>
+</div>
+<div id="clear"></div>
+
+</body>
+
+</html>
