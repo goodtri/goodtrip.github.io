@@ -7,37 +7,48 @@
 
 * {padding: 0px; margin:0px;}
 header {background-color: rgb(204, 210, 240);  height: 50px; margin: 0 auto;}
-section{width: 1000px; height: 500px; border: solid 0px   red  }
-#main_img {background-color: none; height: 250px; width: 100px;}
-#contents {background-color: none; width: 700px; margin: 0 auto; }
+#main_img {background-color: none; height: 250px; width: 100px; border: solid 0px red;}
 #sub_menu {background-color: none; width: 234px; float: left;}
-#main_contents{background-color: none; width: 900px; float: left; margin-top: 150px;} 
 footer {background-color: #5d5b5a; width: 100%; height: 150px; }
-
 .cl{clear: both;}
-#top{ text-align: right;}
+#top{ text-align: right; margin: 0,auto;}
 #top li{list-style-type: none; display: inline; padding:10px;} 
-#logo{float: left; margin: 0 0px 0px 150px;}
+#logo{float: left; margin: 3px 0px 0px 150px;}
 #menus{float: right; margin-top: 20px;}
 a:visited{text-decoration: none; color: rgb(0, 0, 0);}
 a:link{text-decoration: none; color: rgb(0, 0, 0);}
 /* main_img stylesheet */
-#main_img{margin: 30px 0px 0px 500px;}
-#main_contents li{list-style-type: none; display: inline; padding:10px; }
-#main_contents{margin: 150px 0 0 0;}
-#two{margin-left: 430px; margin-top: 10px;}
-p{font-size: 30px; font-weight: bold; margin-left: 230PX; margin-bottom: 10px;}
-#ad{
-    /* border: 2px solid red; */
-   margin-bottom: 50px;
-    margin-left:180px;}
-.ad1{margin-left: 54px; width: 400px;}
-.ad2{margin-left: 100px; height: 220px; width: 300px;}
-.ad3{width: 800px; height: 230px; margin-top: 5px; margin-left: 52px;}
+#main_img{margin: 30px auto; text-align: center;
+ width: 600px; height: 300px;}
+
 /* footer stylesheet */
 #address{float: right; color:white ; margin: 50px 30px 0 0;}
 #address li{list-style-type: none;}
 
+
+
+/* 호텔,모텔 */
+#contents {background-color: none; width: 900px; margin: 100px auto;
+text-align: center;}
+#main_contents{ width: 900px; text-align: center; margin: 100px auto;} 
+#main_contents li{list-style-type: none; display: inline; padding:10px; }
+
+/*  코스 추천 */
+#two{ border: solid 0px red; margin: 0 auto; text-align: center; }
+#cos{width: 900px; height: 300px; margin: 0 auto; text-align: center;
+}
+/* 이벤트 */
+#ad1 {margin: 50px auto; width: 1000px;
+}
+#ad{
+    /* border: 2px solid red; */
+   margin: 50px auto; width: 1000px; height: 500px; 
+text-align: center;}
+#ad2{ width: 400px;}
+#ad3{ height: 220px; width: 300px;}
+#ad4{width: 710px; height: 200px; margin-top: 5px;}
+p{font-size: 30px; font-weight: bold; margin-bottom: 10px;
+text-align: center;}
 </style>
 </head>
 
@@ -73,17 +84,17 @@ p{font-size: 30px; font-weight: bold; margin-left: 230PX; margin-bottom: 10px;}
     </ul>
       </div>
 </section>
-<section>
+<section id="cos">
 <div id='two'>
  <a href="추천1.html"><img src="img/cos.png" width="800px" height="300px"></a>   
 </div>
 </section>
-<section id="ad">
+<section id="ad1">
         <p>이벤트</p>
         <section id="ad">
-        <a href="review.html"><img class="ad1" src="img/review.PNG"></a>    
-        <a href="coupon.html"> <img class="ad2" src='img/coupon.PNG'></a>   
-        <a href="진행중인 이벤트.html" ><img class="ad3" src="img/banner.jpg"></a>   
+        <a href="review.html"><img id="ad2" src="img/review.PNG"></a>    
+        <a href="coupon.html"> <img id="ad3" src='img/coupon.PNG'></a>   
+        <a href="진행중인 이벤트.html" ><img id="ad4" src="img/banner.jpg"></a>   
         </section>
         </section>
        
